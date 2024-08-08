@@ -16,11 +16,7 @@ const Button3 = ({ buttonText }) => {
 
   const classes = styles();
 
-  return (
-    <button className={classes.btn}>
-      {buttonText}
-    </button>
-  );
+  return <button className={classes.btn}>{buttonText}</button>;
 };
 
 export default Button3;
